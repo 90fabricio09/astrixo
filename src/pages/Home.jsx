@@ -60,7 +60,7 @@ export default function Home() {
           <h1 className="astrixo-title">
             Transformamos ideias em<br /> experiências digitais únicas
           </h1>
-          <p className="astrixo-slogan">Onde seu projeto alcança as estrelas</p>
+          <p className="astrixo-slogan">Onde seu projeto alcança as estrelas <i className="bi bi-star-fill"></i></p>
           <p className="astrixo-subtitle">
             Somos uma agência especializada em design e desenvolvimento web, criando soluções digitais que impulsionam o sucesso do seu negócio.
           </p>

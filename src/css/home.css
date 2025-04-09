@@ -121,7 +121,7 @@ body {
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #fff;
+  background-color: #4f46e5;
   transition: width 0.3s ease;
 }
 
@@ -733,30 +733,29 @@ body {
      RESPONSIVIDADE
    ========================= */
 @media (max-width: 768px) {
+  .astrixo-hero.scrolled {
+    min-height: 100vh;
+  }
+
   .hamburger {
     display: flex;
   }
 
   .nav-links-container {
     position: fixed;
-    top: 80px;
-    left: 0;
+    top: 0;
+    right: -100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.9);
-    backdrop-filter: blur(10px);
-    padding: 20px;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.95);
     flex-direction: column;
-    transform: translateY(-100%);
-    opacity: 0;
-    transition: all 0.3s ease;
-    z-index: 100;
-    pointer-events: none;
+    justify-content: center;
+    padding: 20px;
+    transition: right 0.3s ease;
   }
 
   .nav-links-container.active {
-    transform: translateY(0);
-    opacity: 1;
-    pointer-events: auto;
+    right: 0;
   }
 
   .nav-links {
@@ -770,25 +769,61 @@ body {
     text-align: center;
   }
 
-  .client-area-button {
-    margin-top: 20px;
+  .nav-links li a {
+    font-size: 1.1rem;
+    padding: 10px 0;
+    display: block;
   }
 
-  /* Ajustes de tipografia no hero */
+  .client-area-button {
+    margin-top: 20px;
+    padding: 8px 16px;
+    font-size: 1rem;
+    width: auto;
+    min-width: 120px;
+  }
+
   .astrixo-title {
     font-size: 2.5rem;
+    line-height: 1.2;
   }
+
+  .astrixo-slogan {
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
+
   .astrixo-subtitle {
     font-size: 1rem;
+    line-height: 1.5;
   }
-  .features h2,
-  .cta h2 {
-    font-size: 2rem;
+
+  .astrixo-button {
+    padding: 12px 28px;
+    font-size: 1rem;
+    width: auto;
+    min-width: 140px;
+  }
+
+  .hero-learn-more {
+    font-size: 1rem;
+    justify-content: center;
+    width: auto;
+    min-width: 120px;
   }
 
   .hero-buttons {
     flex-direction: column;
+    gap: 15px;
     align-items: center;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .hero-content {
+    padding: 0 20px;
+    margin-top: 80px;
   }
 
   .showcase {
@@ -833,15 +868,48 @@ body {
   .astrixo-title {
     font-size: 2rem;
   }
+
   .astrixo-subtitle {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
+
+  .astrixo-button {
+    padding: 10px 24px;
+    font-size: 1rem;
+    min-width: 130px;
+  }
+
+  .hero-learn-more {
+    font-size: 1rem;
+    min-width: 110px;
+  }
+
+  .navbar {
+    padding: 15px 20px;
+  }
+
+  .navbar .logo img {
+    width: 100px;
+  }
+
+  .hero-content {
+    margin-top: 70px;
+    padding: 0 15px;
+  }
+
+  .nav-links li a {
+    font-size: 1rem;
+  }
+
+  .client-area-button {
+    font-size: 0.95rem;
+    padding: 8px 14px;
+    min-width: 110px;
+  }
+
   .features h2,
   .cta h2 {
     font-size: 1.75rem;
-  }
-  .navbar {
-    padding: 10px 20px;
   }
 }
 
