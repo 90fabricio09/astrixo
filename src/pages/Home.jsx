@@ -238,7 +238,7 @@ export default function Home() {
           <div className="social-links">
           <a href="https://wa.me/5511931501833" target="_blank" rel="noopener noreferrer"><i className="bi bi-whatsapp"></i></a>
             <a href="https://www.instagram.com/astrixo.web/" target="_blank" rel="noopener noreferrer"><i className="bi bi-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/fabriciobettarello" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin"></i></a>
+            <a href="https://discord.gg/8U3TBVfc6g" target="_blank" rel="noopener noreferrer"><i className="bi bi-discord"></i></a>
           </div>
         </div>
       </footer>
