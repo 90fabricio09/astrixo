@@ -234,7 +234,7 @@ export default function Home() {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} astrixo - Agência de Desenvolvimento Web, Design Gráfico e Tráfego Orgânico. Todos os direitos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Astrixo - Agência de Desenvolvimento Web, Design Gráfico e Tráfego Orgânico. Todos os direitos reservados.</p>
           <div className="social-links">
           <a href="https://wa.me/5511931501833" target="_blank" rel="noopener noreferrer"><i className="bi bi-whatsapp"></i></a>
             <a href="https://www.instagram.com/astrixo.web/" target="_blank" rel="noopener noreferrer"><i className="bi bi-instagram"></i></a>

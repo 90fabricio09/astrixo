@@ -29,11 +29,6 @@ body {
   text-align: center;
   position: relative;
   overflow: hidden;
-  transition: all 0.3s ease;
-}
-
-.astrixo-hero.scrolled {
-  min-height: 80vh;
 }
 
 .hero-image {
@@ -75,20 +70,10 @@ body {
   align-items: center;
   justify-content: space-between;
   z-index: 100;
-  transition: all 0.3s ease;
-}
-
-.astrixo-hero.scrolled .navbar {
-  padding: 15px 40px;
 }
 
 .navbar .logo img {
   width: 140px;
-  transition: all 0.3s ease;
-}
-
-.astrixo-hero.scrolled .navbar .logo img {
-  width: 120px;
 }
 
 /* Container para agrupar links e botão de Área do Cliente */
@@ -745,7 +730,7 @@ body {
     position: fixed;
     top: 0;
     right: -100%;
-    width: 100%;
+    width: 60%;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.95);
     flex-direction: column;

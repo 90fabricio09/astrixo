@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "./css/home.css"
+import "./css/ticket.css"
 
 import App from './App'
 import Home from './pages/Home.jsx'
