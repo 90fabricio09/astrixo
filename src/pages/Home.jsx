@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Astrixo from '../assets/astrixo.png';
 import ShowcaseImg from '../assets/showcase.png';
 import Portfolio1 from '../assets/hbfretamento.png';
-import Portfolio2 from '../assets/bettabrasil.png';
+import Portfolio2 from '../assets/echotap.png';
 import Portfolio3 from '../assets/cachehost.png';
 import { useInView } from 'react-intersection-observer';
 import CountUp from 'react-countup';
@@ -140,9 +140,9 @@ export default function Home() {
             <h3>HB Fretamento</h3>
             <p>Desenvolvimento web, design gráfico e tráfego orgânico</p>
           </a>
-          <a href="https://bettabrasil.com.br" target="_blank" rel="noopener noreferrer" className="portfolio-item">
-            <div className="portfolio-image" style={{ backgroundImage: `url(${Portfolio2})` }} role="img" aria-label="Projeto Betta Brasil"></div>
-            <h3>Betta Brasil</h3>
+          <a href="https://echotap.com.br" target="_blank" rel="noopener noreferrer" className="portfolio-item">
+            <div className="portfolio-image" style={{ backgroundImage: `url(${Portfolio2})` }} role="img" aria-label="Projeto EchoTap"></div>
+            <h3>EchoTap</h3>
             <p>Desenvolvimento web, design gráfico e tráfego orgânico</p>
           </a>
           <a href="https://cachehost.vercel.app" target="_blank" rel="noopener noreferrer" className="portfolio-item">
