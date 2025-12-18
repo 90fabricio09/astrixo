@@ -1,0 +1,212 @@
+.window {
+    position: fixed;
+    bottom: 110px;
+    right: 40px;
+    border-radius: 50%;
+    transition: scale 0.3s;
+    z-index: 9999;
+}
+
+.btn-sup {
+    position: fixed;
+    border: none;
+    bottom: 40px;
+    right: 40px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #5043e8;
+    cursor: pointer;
+    transition: all 0.3s;
+    z-index: 9999;
+}
+
+.btn-sup:hover {
+    background-color: rgb(245, 245, 245);
+    color: #000000;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: translateY(-2px);
+}
+
+/* .grid-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 25px 25px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    animation: moveGrid 10s linear infinite;
+    pointer-events: none;
+} */
+
+/* @keyframes moveGrid {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 40px 40px;
+    }
+  } */
+
+.aba {
+    max-width: 460px;
+    overflow-y: auto;
+    max-height: 600px;
+    padding: 25px;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 5px;
+    background: #000000;
+    background: -webkit-linear-gradient(158deg, rgba(0, 0, 0, 1) 0%, rgba(79, 70, 229, 1) 96%);
+    background: -moz-linear-gradient(158deg, rgba(0, 0, 0, 1) 0%, rgba(79, 70, 229, 1) 96%);
+    background: linear-gradient(158deg, rgba(0, 0, 0, 1) 0%, rgba(79, 70, 229, 1) 96%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#5043E8", GradientType=0);
+    z-index: 9999;
+}
+
+.aba h2 {
+    font-size: 30px;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.aba h2 span {
+    color: #5043e8;
+}
+
+.aba p {
+    color: #ffffff;
+}
+
+.global-content {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.content-sup {
+    position: relative;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin: 15px;
+    padding: 15px;
+    transition: all 0.3s;
+}
+
+.content-sup:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: translateY(-2px);
+}
+
+.content-sup a {
+    text-decoration: none;
+}
+
+.content-sup img {
+    border-radius: 5px;
+    width: 335px;
+}
+
+.content-sup i {
+    position: absolute;
+    top: 22px;
+    right: 20px;
+    font-size: 30px;
+    color: #5043e8;
+}
+
+.content-sup img.sup-icon {
+    position: absolute;
+    top: 28px;
+    right: 20px;
+    width: 30px;
+}
+
+.content-sup h3 {
+    font-size: 17px;
+    color: #252525;
+    margin-bottom: 10px;
+}
+
+.content-sup h3 span {
+    color: #5043e8;
+}
+
+.content-sup p {
+    color: #252525;
+    font-size: 13px;
+}
+
+.sup_image {
+    width: 55px;
+}
+
+@media (width < 900px) {
+
+    .window {
+        right: 15px;
+        bottom: 80px;
+    }
+
+    .btn-sup {
+        bottom: 15px;
+        right: 15px;
+    }
+
+    .content-sup i {
+        top: 8px;
+        right: 10px;
+        font-size: 25px;
+    }
+
+    .content-sup img.sup-icon {
+        top: 9px;
+        right: 10px;
+        font-size: 25px;
+    }
+}
+
+@media (height < 710px) {
+    .aba {
+        max-height: 500px;
+    }
+}
+
+@media (height < 600px) {
+    .aba {
+        max-height: 400px;
+    }
+}
+
+@media (width < 500px) {
+    .aba {
+        max-width: 300px;
+    }
+
+    .content-sup {
+        margin: 0;
+        margin-bottom: 15px;
+    }
+
+    .aba h2 {
+        font-size: 20px;
+        color: #ffffff;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .content-sup i,
+    .content-sup img.sup-icon {
+        display: none;
+    }
+
+    .content-sup img {
+        width: 205px;
+    }
+}
